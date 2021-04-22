@@ -6,7 +6,13 @@ namespace exercise_26
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
+            int num1;
+
+            Console.WriteLine("Give your birthyear ");
+            string i = Console.ReadLine();
+            num1 = Convert.ToInt32(i);
+
+            if (num1 < 1900) { Console.WriteLine("You're old!"); };
 
     }
   }
