@@ -6,8 +6,13 @@ namespace exercise_24
   {
     public static void Main(string[] args)
     {
+            int num1;
 
-      // Write your code here:
+            Console.WriteLine("Your speed: ");
+            string i = Console.ReadLine();
+            num1 = Convert.ToInt32(i);
+
+            if (num1 > 120) { Console.WriteLine("Speeding!"); };
       
     }
   }
