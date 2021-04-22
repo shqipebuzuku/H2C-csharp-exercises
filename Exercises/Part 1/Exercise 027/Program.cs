@@ -6,7 +6,14 @@ namespace exercise_27
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
+            int num1;
+
+            Console.WriteLine("Give a number ");
+            string i = Console.ReadLine();
+            num1 = Convert.ToInt32(i);
+
+            if (num1 >= 0) { Console.WriteLine("Positive"); }
+            else { Console.WriteLine("Negative"); };
 
     }
   }
