@@ -6,7 +6,13 @@ namespace exercise_34
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
+            string i = "";
+            while (i != "no")
+            {
+
+                Console.WriteLine("Do you want to continue?");
+                i = Console.ReadLine();
+            };
 
     }
   }
