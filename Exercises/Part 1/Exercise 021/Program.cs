@@ -13,10 +13,10 @@ namespace exercise_21
             Double avg;
             Console.WriteLine("Give me the first number");
             string i = Console.ReadLine();
-            num1 = Convert.ToDouble(i);
+            num1 = Convert.ToDouble(Convert.ToInt32(i));
             Console.WriteLine("Give me the second number");
             string j = Console.ReadLine();
-            num2 = Convert.ToDouble(j);
+            num2 = Convert.ToDouble(Convert.ToInt32(j));
 
             avg = (num1 + num2)/ 2;
 
