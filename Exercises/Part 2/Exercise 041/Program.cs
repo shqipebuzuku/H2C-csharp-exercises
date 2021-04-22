@@ -6,8 +6,15 @@ namespace exercise_41
   {
     public static void Main(string[] args)
     {
+            int numb = 10;
+            int pow;
+            Console.WriteLine("Give a number:");
+            string i = Console.ReadLine();
+            numb = Convert.ToInt32(i);
 
-      // Write your code here:
+            pow = numb * numb;
+
+            Console.WriteLine(pow);
       
     }
   }
