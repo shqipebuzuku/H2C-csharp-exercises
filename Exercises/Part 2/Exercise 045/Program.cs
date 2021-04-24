@@ -7,7 +7,14 @@ namespace exercise_45
     public static void Main(string[] args)
     {
 
-      // Write your code here:
+            int numb1;
+            int count = 0;
+
+            Console.WriteLine("Give a positive number:");
+            string i = Console.ReadLine();
+            numb1 = Convert.ToInt32(i);
+
+            while (count <= numb1) { Console.WriteLine(count); count++; };
 
     }
   }
