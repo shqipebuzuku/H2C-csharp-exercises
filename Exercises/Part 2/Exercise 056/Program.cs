@@ -2,14 +2,19 @@
 
 namespace exercise_56
 {
-  class Program
-  {
-    public static void Main(String[] args)
+    class Program
     {
+        static void Main(string[] args)
+        {
 
+            Console.WriteLine(Word());  
+            
+        }
+        public static string Word()
+        {
+
+            return "Pasta!";
+                    
+        }
     }
-
-    // Write your method here:
-
-  }
 }
